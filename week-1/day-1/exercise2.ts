@@ -192,3 +192,5 @@ interface Order {
 function processOrder(order: Order, userRole: UserRole): string {
     return `${userRole.charAt(0).toUpperCase() + userRole.slice(1)} processing order ${order.orderId} - Status: ${order.status}`;
 }
+
+console.log(processOrder({orderId: "ORD123", userId: "user1", amount: 150.00, paymentMethod: "credit_card", status: "completed"}, "admin"));

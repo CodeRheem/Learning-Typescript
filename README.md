@@ -10,10 +10,13 @@ My journey to mastering TypeScript - from beginner to job-ready developer.
 ## 📚 Progress
 
 ### Week 1: TypeScript Fundamentals
-- [x] Day 1: Basic Types & Functions
+- [x] Day 1: Basic Types, Interfaces & Type Aliases ✅
   - Variables with type annotations
   - Function typing
-  - Conditional logic
+  - Interfaces with optional and readonly properties
+  - Nested interfaces and arrays of objects
+  - Union types and type aliases
+  - **Completed:** Exercise 1 (3 tasks) & Exercise 2 (3 tasks)
 
 ### Week 2: Coming soon...
 
